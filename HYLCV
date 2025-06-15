@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He Yalin | Film, Television & New Media Producer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1a202c;
+            background-color: #f5f7fa;
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        /* Frosted glass effect class */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(15px) saturate(180%);
+            -webkit-backdrop-filter: blur(15px) saturate(180%);
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        }
+
+        .section-title {
+            @apply text-5xl font-extrabold text-center mb-16 text-gray-800;
+        }
+        
+        /* Accordion Panel Styles */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-40 py-2">
+        <div class="container mx-auto px-6">
+            <nav class="glass-card flex justify-between items-center px-6 py-3">
+                <div class="text-2xl font-bold text-gray-800">
+                    <a href="#">He Yalin</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-sky-600 font-medium transition">About</a>
+                    <a href="#experience" class="text-gray-700 hover:text-sky-600 font-medium transition">Experience</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-sky-600 font-medium transition">Portfolio</a>
+                    <a href="#skills" class="text-gray-700 hover:text-sky-600 font-medium transition">Skills</a>
+                    <a href="#awards" class="text-gray-700 hover:text-sky-600 font-medium transition">Awards</a>
+                </div>
+                <a href="mailto:erin4950810@outlook.com" class="hidden md:block bg-gray-800 text-white px-5 py-2 rounded-full hover:bg-black transition-colors">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="py-24 md:py-40">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight">He Yalin</h1>
+                <p class="mt-4 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+                    A passionate new media professional focusing on film & TV production, content strategy, and project operations.
+                </p>
+            </div>
+        </section>
+
+        <!-- About Me & Education -->
+         <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                 <h2 class="section-title">About Me</h2>
+                <div class="glass-card p-8 md:p-12">
+                    <div class="grid md:grid-cols-5 gap-12 items-center">
+                        <div class="md:col-span-3">
+                            <p class="text-lg text-gray-800 leading-relaxed mb-6">
+                                Hello! I am an aspiring producer with a strong passion for the film, television, and new media industries. I hold a Bachelor of Arts in Internet and New Media from Xiamen University of Technology and will be pursuing a Master of Arts in Producing for Film, Television & New Media at Hong Kong Baptist University.
+                            </p>
+                        </div>
+                        <div class="md:col-span-2 space-y-6">
+                            <div class="bg-white/50 p-6 rounded-lg">
+                                <h3 class="font-bold text-xl mb-3 text-sky-800">Education</h3>
+                                <div class="mb-4">
+                                    <p class="font-semibold text-gray-900">Hong Kong Baptist University</p>
+                                    <p class="text-gray-600">Master of Arts, Producing for Film, Television & New Media</p>
+                                    <p class="text-sm text-gray-500">Sep 2024 - Jun 2025 | GPA: 3.63 / 4.00</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">Xiamen University of Technology</p>
+                                    <p class="text-gray-600">Bachelor of Arts, Internet and New Media</p>
+                                    <p class="text-sm text-gray-500">Sep 2019 - Jun 2023 | GPA: 3.85 / 5.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience -->
+        <section id="experience" class="py-24">
+             <div class="container mx-auto px-6">
+                <h2 class="section-title">Internship Experience</h2>
+                <div class="space-y-8">
+                    <div class="glass-card overflow-hidden"><div class="flex flex-col md:flex-row items-stretch"><div class="p-8 md:w-1/3 bg-slate-600/50 text-white flex flex-col justify-center"><h3 class="text-2xl font-bold">Copywriter</h3><p class="font-light text-lg">Xiamen Culture Media Video & Audio Co., Ltd.</p><p class="text-sm mt-2 text-slate-100">Mar 2023 - Jul 2023</p></div><div class="p-8 md:w-2/3"><ul class="list-disc list-inside text-gray-800 space-y-3"><li>Explored user needs to assist in promoting online activities.</li><li>Created promotional posters and engaging marketing copy.</li><li>Assisted with user feedback collection and product optimization.</li><li>Prepared shooting plans and assisted with on-site shoots.</li></ul></div></div></div>
+                    <div class="glass-card overflow-hidden"><div class="flex flex-col md:flex-row-reverse items-stretch"><div class="p-8 md:w-1/3 bg-sky-600/50 text-white flex flex-col justify-center text-right md:text-right"><h3 class="text-2xl font-bold">Producer Assistant</h3><p class="font-light text-lg">DADI DIGITAL CINEMA Corporation</p><p class="text-sm mt-2 text-sky-100">Jul 2022 - Sep 2022</p></div><div class="p-8 md:w-2/3"><ul class="list-disc list-inside text-gray-800 space-y-3"><li>Assisted producers in developing and planning over a dozen projects, including nearly 30 screenplays.</li><li>Gained in-depth exposure to the film and television industry, from script screening to project proposal production.</li><li>Helped coordinate scripts, production budgets, and other related collaborative work.</li><li>Learned the skills to judge whether a script has commercial value.</li></ul></div></div></div>
+                    <div class="glass-card overflow-hidden"><div class="flex flex-col md:flex-row items-stretch"><div class="p-8 md:w-1/3 bg-teal-600/50 text-white flex flex-col justify-center"><h3 class="text-2xl font-bold">Platform Content Operator</h3><p class="font-light text-lg">Migu Xinkong Culture Technology (Xiamen) Co., Ltd</p><p class="text-sm mt-2 text-teal-100">Nov 2021 - Apr 2022</p></div><div class="p-8 md:w-2/3"><ul class="list-disc list-inside text-gray-800 space-y-3"><li>Managed content for platforms like Migu Film's Sina Weibo and "Chengshi Circle" RED account.</li><li>Planned and executed offline interviews with filmmakers, achieving over 10,000 likes and follows.</li><li>Edited and published over 100 short videos across multiple platforms.</li><li>Responsible for the planning and interview production of the 2020 China Golden Rooster Awards.</li></ul></div></div></div>
+                    <div class="glass-card overflow-hidden"><div class="flex flex-col md:flex-row-reverse items-stretch"><div class="p-8 md:w-1/3 bg-rose-600/50 text-white flex flex-col justify-center text-right md:text-right"><h3 class="text-2xl font-bold">Tik Tok Content Operator Intern</h3><p class="font-light text-lg">Quanzhou Evening News</p><p class="text-sm mt-2 text-rose-100">Jul 2020 - Aug 2020</p></div><div class="p-8 md:w-2/3"><ul class="list-disc list-inside text-gray-800 space-y-3"><li>Worked on topic selection, script creation, and video editing for the official TikTok account.</li><li>Participated in shooting and editing several videos for various platforms.</li><li>Assisted in event poster production and communication with commercial clients.</li><li>Developed brand communication plans for the newspaper and external projects.</li></ul></div></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Portfolio Section -->
+        <section id="portfolio" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="space-y-8">
+
+                    <!-- Category Accordion: Micro Film -->
+                    <div class="glass-card overflow-hidden">
+                        <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">微电影 (Micro Film)</h3>
+                            <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                        <div class="accordion-content category-accordion-content">
+                            <div class="p-4 space-y-4 border-t border-white/30">
+                                <!-- Project Item -->
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                    <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">《获奖作品》Huo Jiang's Work</p>
+                                            <p class="text-gray-700 text-sm">Role: Director / Writer / Cinematographer / Editor</p>
+                                        </div>
+                                        <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                    </div>
+                                    <div class="accordion-content project-accordion-content">
+                                        <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                            <div class="md:col-span-1">
+                                                <p class="text-gray-800">This film tells the story of Huo Jiang, a girl on an island who dreams of seeing the sea, and an old fisherman who helps her understand the true meaning of her dream. This work won the second prize in the 8th Fujian Provincial College Student Imaging Competition.</p>
+                                            </div>
+                                            <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                <img src="https://i.imgur.com/VIKSafG.jpeg" alt="Huo Jiang's Work Poster" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                <img src="https://i.imgur.com/0FwzJjV.png" alt="Still from Huo Jiang's Work" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                <!-- Project Item -->
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                    <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">《归途》Road of Redemption</p>
+                                            <p class="text-gray-700 text-sm">Role: Project Planner / Screenwriter</p>
+                                        </div>
+                                        <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                    </div>
+                                    <div class="accordion-content project-accordion-content">
+                                        <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                            <div class="md:col-span-1">
+                                                <p class="text-gray-800">An anti-drug publicity short drama series for Xiamen. The story follows a former drug user, now a social worker, who helps others by sharing his own experiences while listening to their stories.</p>
+                                            </div>
+                                            <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                <img src="https://imgur.com/a/QBDiE4e" alt="Still from Road of Redemption" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                <img src="https://i.imgur.com/w4pB49x.png" alt="Still from Road of Redemption 2" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Accordion: Project Proposals -->
+                    <div class="glass-card overflow-hidden">
+                        <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">策划案 (Project Proposals)</h3>
+                            <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                         <div class="accordion-content category-accordion-content">
+                            <div class="p-4 space-y-4 border-t border-white/30">
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">《走吧》Let's GoGoGo - Variety Show</p>
+                                            <p class="text-gray-700 text-sm">Role: Planner</p>
+                                        </div>
+                                        <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                    </div>
+                                    <div class="accordion-content project-accordion-content">
+                                        <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                            <div class="md:col-span-1">
+                                                 <p class="text-gray-800">A proposal for a post-00s healing travel reality show, focusing on five youths with different life stories who embark on a journey of self-discovery.</p>
+                                            </div>
+                                            <div class="md:col-span-1">
+                                                 <img src="https://i.imgur.com/PJM1q9y.png" alt="Let's GoGoGo Proposal Cover" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">Daliyuan & Wuling Co-branding</p>
+                                            <p class="text-gray-700 text-sm">Role: Project Lead / General Planner</p>
+                                        </div>
+                                        <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                    </div>
+                                    <div class="accordion-content project-accordion-content">
+                                        <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                            <div class="md:col-span-1">
+                                                 <p class="text-gray-800">Comprehensive marketing proposals for major brands like Daliyuan and Wuling Motors, targeting young consumers with creative themes and multi-platform strategies.</p>
+                                            </div>
+                                            <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                 <img src="https://i.imgur.com/t3Z8j8L.png" alt="Daliyuan Proposal Cover" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/tKxP622.png" alt="Wuling Proposal Cover" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                            </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Category Accordion: TVC -->
+                    <div class="glass-card overflow-hidden">
+                        <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">TVC</h3>
+                            <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                        <div class="accordion-content category-accordion-content">
+                             <div class="p-4 space-y-4 border-t border-white/30">
+                                 <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                         <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">Government & Corporate TVC Production</p>
+                                            <p class="text-gray-700 text-sm">Role: Copywriter / Writer-Director</p>
+                                        </div>
+                                         <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                     </div>
+                                     <div class="accordion-content project-accordion-content">
+                                         <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                             <div class="md:col-span-1">
+                                                 <p class="text-gray-800">Involved in the creation of several official promotional videos, including the 2023 Xiamen Marathon, the 7th Xiamen Literature and Art Award, and the "Huang Zehe" centennial celebration ad. My role included copywriting and scriptwriting.</p>
+                                             </div>
+                                             <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                 <img src="https://i.imgur.com/s6Wz8aD.png" alt="On the set of a TVC" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/PImd90m.png" alt="Shooting a TVC on a subway" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                             </div>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+                    
+                    <!-- Category Accordion: Media Operation -->
+                    <div class="glass-card overflow-hidden">
+                        <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">媒体运营 (Media Operation)</h3>
+                            <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                        <div class="accordion-content category-accordion-content">
+                             <div class="p-4 space-y-4 border-t border-white/30">
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">Social Media Account Management</p>
+                                            <p class="text-gray-700 text-sm">Role: Video Editor / Copywriter / Topic Planner</p>
+                                        </div>
+                                         <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                     </div>
+                                     <div class="accordion-content project-accordion-content">
+                                         <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                             <div class="md:col-span-1">
+                                                  <p class="text-gray-800">Operated various social media accounts on platforms like Weibo, TikTok, RED, and WeChat, for brands including Mars Cirus Art Center and Migu Sports.</p>
+                                             </div>
+                                             <div class="md:col-span-1 grid grid-cols-3 gap-4">
+                                                  <img src="https://i.imgur.com/4qT0P6G.png" alt="Screenshot of Mars Circus Art Bookstore" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                  <img src="https://i.imgur.com/vH1WjYw.png" alt="Screenshot of Chengshi Circle Weibo account" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                  <img src="https://i.imgur.com/zV8Q18T.png" alt="Screenshot of Migu Sports Red account" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                             </div>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+
+                    <!-- Category Accordion: Graphic Works -->
+                    <div class="glass-card overflow-hidden">
+                         <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">平面作品 (Graphic Works)</h3>
+                            <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                         <div class="accordion-content category-accordion-content">
+                             <div class="p-4 space-y-4 border-t border-white/30">
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">Photography (Still Life & Portrait)</p>
+                                        </div>
+                                         <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                     </div>
+                                     <div class="accordion-content project-accordion-content">
+                                         <div class="p-8">
+                                             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                                 <img src="https://i.imgur.com/tY7wV9D.png" alt="Still life photography of food" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/uR2iR2A.png" alt="Still life photography of food arranged as a clock" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/cR7C56o.png" alt="Portrait photography of a woman in traditional dress" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/k0iM4L4.png" alt="Light painting portrait photography" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                            </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+
+                    <!-- Category Accordion: Offline Exhibitions -->
+                    <div class="glass-card overflow-hidden">
+                         <div class="p-8 text-center cursor-pointer category-toggle-btn">
+                            <h3 class="text-4xl font-bold text-gray-800 mb-6">线下展览 (Offline Exhibitions)</h3>
+                             <button class="toggle-button bg-gray-800 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-black transition-colors pointer-events-none">View</button>
+                        </div>
+                        <div class="accordion-content category-accordion-content">
+                             <div class="p-4 space-y-4 border-t border-white/30">
+                                <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">Minnan Language Pun Fun Exhibition</p>
+                                            <p class="text-gray-700 text-sm">Role: Curator / Designer / Media Operator</p>
+                                        </div>
+                                         <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                     </div>
+                                     <div class="accordion-content project-accordion-content">
+                                         <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                            <div class="md:col-span-1">
+                                                 <p class="text-gray-800">Curated an interactive exhibition based on Minnan dialect puns, targeting a young audience. The project involved online and offline promotion, visual design, and was successfully held in Xiamen SM City.</p>
+                                            </div>
+                                             <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                 <img src="https://i.imgur.com/sSgVq1j.png" alt="Photo of the exhibition space" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/z0hR51O.png" alt="Photo of exhibition installations" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                             </div>
+                                        </div>
+                                     </div>
+                                 </div>
+                                 <div class="project-item bg-white/30 rounded-lg overflow-hidden">
+                                     <div class="project-header">
+                                        <div class="flex-grow">
+                                            <p class="text-xl font-bold text-gray-800 mb-2">"Mountain and Image Season" Film Festival</p>
+                                            <p class="text-gray-700 text-sm">Role: Film Selector / Review Writer</p>
+                                        </div>
+                                         <button class="project-toggle-btn bg-gray-800 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-black transition-colors flex-shrink-0">View Details</button>
+                                     </div>
+                                     <div class="accordion-content project-accordion-content">
+                                         <div class="p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                                             <div class="md:col-span-1">
+                                                 <p class="text-gray-800">As a film selector for this campus film festival, a collaboration with the Golden Rooster Film Festival, I selected and wrote reviews for 9 short films and designed exhibition units.</p>
+                                             </div>
+                                             <div class="md:col-span-1 grid grid-cols-2 gap-4">
+                                                  <img src="https://i.imgur.com/i4j8A2s.png" alt="Promotional poster for the film festival" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                                 <img src="https://i.imgur.com/P4qgYqg.png" alt="Film schedule for the festival" class="w-full h-auto rounded-lg object-cover shadow-md">
+                                             </div>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills -->
+        <section id="skills" class="py-24">
+            <div class="container mx-auto px-6">
+                 <h2 class="section-title">Skills & Expertise</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="glass-card p-8"><div class="flex justify-center mb-4"><svg class="w-12 h-12 text-sky-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9A2.25 2.25 0 004.5 18.75z"></path></svg></div><h3 class="text-2xl font-bold mb-4 text-gray-800">Production & Creativity</h3><ul class="space-y-2 text-gray-700"><li>Video Shooting & Editing</li><li>Photography</li><li>Radio Recording & Editing</li><li>Content Planning & Curation</li><li>Copywriting</li><li>Social Media Management</li></ul></div>
+                    <div class="glass-card p-8"><div class="flex justify-center mb-4"><svg class="w-12 h-12 text-sky-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-1.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"></path></svg></div><h3 class="text-2xl font-bold mb-4 text-gray-800">Software & Technical</h3><ul class="space-y-2 text-gray-700"><li>Adobe Premiere Pro</li><li>Adobe Photoshop</li><li>Video Cropping Tools</li><li>Microsoft Office Suite</li><li>NCRE Level 2</li></ul></div>
+                    <div class="glass-card p-8"><div class="flex justify-center mb-4"><svg class="w-12 h-12 text-sky-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"></path></svg></div><h3 class="text-2xl font-bold mb-4 text-gray-800">Languages & Communication</h3><ul class="space-y-2 text-gray-700"><li>English (Proficient, CET-6)</li><li>Mandarin (Native, Putonghua Certified)</li><li>Project Management</li><li>Team Collaboration</li><li>Public Speaking</li></ul></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards -->
+        <section id="awards" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Honors & Awards</h2>
+                <div class="max-w-4xl mx-auto glass-card p-8 md:p-12">
+                     <ul class="space-y-4">
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 mr-3 text-amber-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>Outstanding Graduate, Xiamen University of Technology (2023)</li>
+                        <li class="flex items-center text-lg"><svg class="w-6 h-6 mr-3 text-amber-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>Outstanding Graduation Design, Xiamen University of Technology (2023)</li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-6 text-center text-gray-800">
+            <p>&copy; 2024 He Yalin. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- Accordion Logic for Main Categories ---
+        document.querySelectorAll('.category-toggle-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const header = e.currentTarget;
+                const content = header.nextElementSibling;
+                if (!content) return; // Error guard
+
+                const buttonText = header.querySelector('.toggle-button');
+                const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
+
+                if (isOpen) {
+                    content.style.maxHeight = '0px';
+                    if (buttonText) buttonText.textContent = 'View';
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    if (buttonText) buttonText.textContent = 'Hide';
+                }
+            });
+        });
+
+        // --- Accordion Logic for Individual Projects ---
+        document.querySelectorAll('.project-toggle-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                const projectItem = button.closest('.project-item');
+                if (!projectItem) return;
+
+                const projectContent = projectItem.querySelector('.project-accordion-content');
+                const parentCategoryContent = button.closest('.category-accordion-content');
+                if (!projectContent || !parentCategoryContent) return; // Error guard
+
+                const wasOpen = projectContent.style.maxHeight && projectContent.style.maxHeight !== '0px';
+                
+                if (wasOpen) {
+                    parentCategoryContent.style.maxHeight = (parentCategoryContent.scrollHeight - projectContent.scrollHeight) + 'px';
+                    projectContent.style.maxHeight = '0px';
+                    button.textContent = 'View Details';
+                } else {
+                    const currentParentHeight = parentCategoryContent.scrollHeight;
+                    projectContent.style.maxHeight = projectContent.scrollHeight + 'px';
+                    const newParentHeight = currentParentHeight + projectContent.scrollHeight;
+                    parentCategoryContent.style.maxHeight = newParentHeight + 'px';
+                    button.textContent = 'Hide Details';
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
